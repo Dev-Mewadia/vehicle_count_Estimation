@@ -1,4 +1,4 @@
-# 🚗 Vehicle Tracking and Speed Estimation Using OpenCV
+# Vehicle Tracking and Speed Estimation Using OpenCV
 
 This repository contains the implementation of a Vehicle Tracking and Speed Estimation system using OpenCV and Python. The project leverages Computer Vision techniques to detect, track, and estimate the speed of vehicles in video feeds, with potential applications in traffic law enforcement and congestion management.
 
@@ -20,7 +20,7 @@ Traffic monitoring is a critical aspect of urban management, but manual methods 
 ## 🌟 Features
 - **Vehicle Detection**: Uses background subtraction and contour detection to identify vehicles.
 - **Real-Time Tracking**: Assigns unique IDs to track vehicles across frames.
-- **Speed Estimation**: Calculates speed in km/h using pixel-to-meter conversion.
+
 - **Preprocessing Pipeline**: Implements grayscale conversion, Gaussian blur, and morphological transformations for noise reduction.
 
 ## 🛠️ Workflow
@@ -29,7 +29,7 @@ Traffic monitoring is a critical aspect of urban management, but manual methods 
 3. **Morphological Transformations**: Dilate and close regions to refine detected objects.
 4. **Contour Detection**: Identify vehicle boundaries.
 5. **Tracking**: Assign unique IDs to vehicles and update positions.
-6. **Speed Estimation**: Calculate speed using distance traveled over time.
+
 7. **Output**: Display results with bounding boxes and speed annotations.
 
 ## 🚀 Usage
@@ -37,7 +37,7 @@ Simply replace the video file in the code with your desired input and run the sc
 
 ## 📊 Results
 - **Processing Speed**: The system processes at ~15 FPS on standard hardware.
-- **Speed Accuracy**: The speed estimation has an accuracy of approximately 90%, depending on the calibration and quality of the video input.
+
 - **Vehicle Count**: The number of vehicles detected is dynamically displayed on the processed frames.
 - **Real-Time Feedback**: Bounding boxes are displayed around detected vehicles, and their speed is annotated in real-time.
 
